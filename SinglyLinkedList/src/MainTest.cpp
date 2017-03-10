@@ -1,7 +1,7 @@
 /*
  * MainTest.cpp
  *
- *  Created on: 2017年3月10日
+ *  Created on: 2017-03-10
  *      Author: Administrator
  */
 #include "SinglyLinkedList.h"

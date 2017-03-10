@@ -3,7 +3,7 @@
 // Author      : Davi
 // Version     :
 // Copyright   : copy right
-// Description : Hello World in C++, Ansi-style
+// Description : SinglyLinkedList in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
