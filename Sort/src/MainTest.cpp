@@ -9,6 +9,7 @@
 #include <iostream>
 #include "InsertionSort.h"
 #include "SelectionSort.h"
+#include "BubbleSort.h"
 
 using namespace std;
 
@@ -19,7 +20,10 @@ int main() {
 	// InsertionSort<int>::sort(array, 5);
 
 	// Selection Sort
-	SelectionSort<int>::sort(array, 5);
+	// SelectionSort<int>::sort(array, 5);
+
+	// BubbleSort
+	BubbleSort<int>::sort(array, 5);
 
 	for (int i = 0; i < 5; i++) {
 		cout << array[i] << " ,";

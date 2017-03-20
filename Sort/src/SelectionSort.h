@@ -9,8 +9,8 @@
  *
  * 算法复杂度 ：O（n2）
  *
- *  Created on: 2017年3月20日
- *      Author: Administrator
+ *  Created on: 2017-3-20
+ *      Author: Davi
  */
 
 #ifndef SELECTIONSORT_H_
