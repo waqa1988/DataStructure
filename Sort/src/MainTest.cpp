@@ -8,13 +8,19 @@
 
 #include <iostream>
 #include "InsertionSort.h"
+#include "SelectionSort.h"
 
 using namespace std;
 
 int main() {
 	int array[] = {5, 2, 3, 8, 1};
 
-	InsertionSort<int>::sort(array, 5);
+	// Insertion sort
+	// InsertionSort<int>::sort(array, 5);
+
+	// Selection Sort
+	SelectionSort<int>::sort(array, 5);
+
 	for (int i = 0; i < 5; i++) {
 		cout << array[i] << " ,";
 	}
