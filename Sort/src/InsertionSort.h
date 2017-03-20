@@ -23,7 +23,7 @@ void InsertionSort<T>::sort(T data[], int n) {
 		int j = i;
 		T temp = data[i];
 
-		for ( ; j > 0 && data[j - 1] < temp; j--) {
+		for ( ; j > 0 && temp < data[i - 1]; j--) {
 			data[j] = data[j - 1];
 		}
 
